@@ -81,16 +81,6 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="textBrowserMessage">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>200</y>
-      <width>411</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButtonConnect">
     <property name="geometry">
      <rect>
@@ -115,6 +105,22 @@
     </property>
     <property name="text">
      <string>Subscribe</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="mqttMessages">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>411</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
