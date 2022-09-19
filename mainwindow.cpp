@@ -20,7 +20,6 @@ void MainWindow::buttonConnectReleased()
         tr("Hi"),
         tr("Let's connect to server") );
 
-
 }
 
 MainWindow::~MainWindow()
