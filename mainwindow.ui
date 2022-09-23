@@ -44,6 +44,9 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="text">
+     <string>broker.hivemq.com</string>
+    </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -80,6 +83,9 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="text">
+     <string>SaranenIoT/huminidity/</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButtonConnect">
     <property name="geometry">
@@ -113,14 +119,53 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>200</y>
-      <width>411</width>
-      <height>171</height>
+      <x>480</x>
+      <y>100</y>
+      <width>301</width>
+      <height>281</height>
      </rect>
     </property>
     <property name="readOnly">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Message:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditMessage">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>200</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSend">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send</string>
     </property>
    </widget>
   </widget>
